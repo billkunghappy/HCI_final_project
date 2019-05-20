@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--navbar-->
+    <LinearLayout
+        android:id="@+id/top_nav"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#D3D3D3"
+        android:orientation="horizontal"
+        >
+
+        <SearchView
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff" />
+
+        <ImageButton
+            android:id="@+id/nav_head"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/test" />
+
+        <ImageButton
+            android:id="@+id/top_nav_bell"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bell_icon" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#D3D3D3"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:weightSum="4">
+
+
+        <ImageButton
+            android:id="@+id/bottom_nav_home"
+            style="@style/nav_bottom_btn"
+            android:src="@drawable/home_icon"
+            android:onClick="nav_home_btn_click"/>
+        <ImageButton
+            android:id="@+id/bottom_nav_ticket"
+            style="@style/nav_bottom_btn"
+            android:src="@drawable/ticket_icon" />
+        <ImageButton
+            android:id="@+id/bottom_nav_bookmark"
+            style="@style/nav_bottom_btn"
+            android:src="@drawable/bookmark_icon"
+            android:onClick="nav_bookmark_btn_click"/>
+        <ImageButton
+            android:id="@+id/bottom_nav_follow"
+            style="@style/nav_bottom_btn"
+            android:src="@drawable/follow_icon" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

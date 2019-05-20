@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="#ffffff">
+
+        <Button
+            android:id="@+id/button"
+            style="@style/bookmark_pwd_undernav"
+            android:text="@string/second_nav_first" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/bookmark_pwd_undernav"
+            android:text="@string/second_nav_greater" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/bookmark_pwd_undernav"
+            android:text="@string/second_nav_second" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

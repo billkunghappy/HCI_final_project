@@ -1,0 +1,52 @@
+<resources>
+    xmlns:tools="http://schemas.android.com/tools"
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Customization -->
+    <!-- General -->
+        <!-- center image -->
+    <style name="center_img">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="title_small">
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+    <style name="title_medium">
+        <item name="android:textSize">22dp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    <style name="context_medium">
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    <!-- bookmark pages -->
+
+    <style name="bookmark_pwd_undernav">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <!-- navbar -->
+    <style name="nav_bottom_btn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+</resources>
