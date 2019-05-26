@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <ImageButton
+        android:id="@+id/exhib_list_img"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#0000"
+        app:srcCompat="@drawable/main_small" />
+
+  <!---->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/exhibit_dsrp" />
+
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/dsrp_btn1"-->
+            <!--android:background="#0000"-->
+            <!--android:layout_width="400dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--app:srcCompat="@drawable/exhibit_dsrp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/itemname"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Medium Text"-->
+            <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:padding="2dp"-->
+            <!--android:textColor="#33CC33" />-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="horizontal">-->
+
+
+
+            <!--<ImageButton-->
+                <!--android:id="@+id/author_btn1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="2"-->
+                <!--android:scaleType="fitCenter"-->
+                <!--android:adjustViewBounds="true"-->
+                <!--android:background="@null"-->
+                <!--android:src="@drawable/celebrity"-->
+                <!--android:text="btn1" />-->
+
+            <!--<ToggleButton-->
+                <!--android:id="@+id/like_btn1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/like_img"-->
+                <!--android:text="Like"-->
+                <!--android:textOff="加入喜歡"-->
+                <!--android:textOn="喜歡!"  />-->
+
+            <!--<ToggleButton-->
+
+                <!--android:id="@+id/subscribe_btn1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@null"-->
+                <!--android:layout_weight="1"-->
+                <!--android:textOff="加入書籤"-->
+                <!--android:textOn="已加入！"  />-->
+        <!--</LinearLayout>-->
+    </LinearLayout>
+
+
+</LinearLayout>

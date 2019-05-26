@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">HCI_high_fi</string>
-    <!-- second_nav -->
-    <string name="second_nav_first">展覽書籤</string>
-    <string name="second_nav_greater"> > </string>
-    <string name="second_nav_second">某展覽名稱</string>
+<string name="app_name">HCI_high_fi</string>
+<!-- second_nav -->
+<string name="second_nav_first">展覽書籤</string>
+<string name="second_nav_greater"> > </string>
+<string name="second_nav_second">某展覽名稱</string>
 </resources>

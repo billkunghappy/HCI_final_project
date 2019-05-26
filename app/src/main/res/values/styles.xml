@@ -10,7 +10,7 @@
 
     <!-- Customization -->
     <!-- General -->
-        <!-- center image -->
+    <!-- center image -->
     <style name="center_img">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">@null</item>
